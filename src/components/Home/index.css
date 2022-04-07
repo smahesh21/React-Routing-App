@@ -1,0 +1,23 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.home-image {
+  height: 250px;
+  width: 250px;
+}
+@media screen and (max-width: 576px) {
+  .home-image {
+    height: 150px;
+    width: 150px;
+  }
+}
+.home {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #6d396b;
+}

@@ -1,0 +1,23 @@
+.not-found-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.not-found-image {
+  height: 250px;
+  width: 250px;
+}
+@media screen and (max-width: 576px) {
+  .not-found-image {
+    height: 150px;
+    width: 576px;
+  }
+}
+.not-found {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #6d396b;
+}

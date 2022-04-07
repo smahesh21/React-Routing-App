@@ -1,0 +1,35 @@
+.nav-header-section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wave-image-section {
+  display: flex;
+  justify-content: flex-start;
+}
+.wave-image {
+  height: 25px;
+  width: 30px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.wave-text {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #12022f;
+}
+.nav-menu {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #12022f;
+  list-style-type: none;
+}
+.nav-link {
+  margin-right: 16px;
+  text-decoration: none;
+}
